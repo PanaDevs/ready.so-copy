@@ -3,19 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ready.so (Cloned)</title>
+<title>Ready — The calendar you need to meet. (Cloned)</title>
 
 <link rel="stylesheet" href="style.css">
-<link rel="" href="script.js" type="text/javascript">
+<script src="script.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+<link
+  rel="shortcut icon"
+  href="/images/favicon.png"
+  type="image/x-icon"
+>
+<link
+  rel="apple-touch-icon"
+  href="/images/favicon-large.png"
+  sizes="180x180"
+>
+<!-- The original website's apple touch icon didn't come in any of the right size's published by apple for this meta tag. I'm not sure this favicon will downscale well.
+-->
+
+<meta name="description" content="Ready is the first calendar that solves the meeting problem. It stops them from crowding your day and makes the ones you have worth their weight. Imagine—a calendar that results in fewer meetings, more focus, and better sessions with your team.">
 
 </head>
 <body>
 
+  <nav class="navbar">
+    <img
+      src="/images/brand-logo.svg"
+      alt="brand logo"
+      class="navbar-item left "
+    >
 
-  <!-- Por aquí empieza el código. Con ese espacio alrededor el código es más legible y el doc más fácil de navegar. .-->
+    <div class="brand-team-avatars navbar-item right">
+        <div class="teammate-avatar">
+        <img src="/images/julie-small.png" alt="Julie's avatar, it's a penguin.">
 
+        <div class="teammate-details hidden">
+          <img
+            src="/images/julie-large.png"
+            alt="Julie's avatar in larger size."
+            class="expanded-avatar"
+          >
+          <p class="name">Julie</p>
+          <p class="secondary-text location">Antarctica, Antarctica</p>
+          <p class="secondary-text time-zone-reference">4:30am (NZST)</p>
+        </div>
+      </div>
+
+      <div class="teammate-avatar">
+        <img src="/images/junnie-small.png" alt="Junnie's avatar, it's a raccon">
+
+        <div class="teammate-details hidden">
+          <img
+            src="/images/junnie-large.png"
+            alt="Junnie's avatar in larger size."
+            class="expanded-avatar"
+          >
+          <p class="name">Junnie</p>
+          <p class="secondary-text location">Portland, United States</p>
+          <p class="secondary-text time-zone-reference">9:30am (PDT)</p>
+        </div>
+      </div>
+
+      <div class="teammate-avatar">
+        <img src="/images/febby-small.png" alt="Febby's avatar, it's a fox.">
+
+        <div class="teammate-info hidden">
+          <img
+            src="/images/febby-large.png"
+            alt="Febby's avatar in larger size."
+            class="expanded-avatar"
+          >
+          <p class="name">Febby</p>
+          <p class="secondary-text location">London, England</p>
+          <p class="secondary-text time-zone-reference">5:30pm (BST)</p>
+        </div>
+      </div>
+
+      <div class="teammate-avatar">
+        <img src="/images/augustin-small.png" alt="Augustin's avatar, it's a tiger.">
+
+        <div class="teammate-info hidden">
+          <img
+            src="/images/augustin-large.png"
+            alt="[teammate] avatar expanded"
+            class="expanded-avatar"
+          >
+          <p class="name">Augustin</p>
+          <p class="secondary-text location">Kathmandu, Nepal</p>
+          <p class="secondary-text time-zone-reference">10:15pm (NPT)</p>
+        </div>
+      </div>
+
+      <div class="teammate-avatar">
+        <img
+        src="/images/deercember-small.png" alt="Deercember's avatar, it's a deer.">
+
+        <div class="teammate-info hidden">
+          <img
+            src="/images/deercember-large.png" 
+            alt="Deercember's avatar in larger size."
+            class="expanded-avatar"
+          >
+          <p class="name">Deercember</p>
+          <p class="secondary-text location">Toronto, Canada</p>
+          <p class="secondary-text time-zone-reference">10:30pm (EDT)</p>
+        </div>
+      </div>
+
+      <div class="teammate-avatar hiring">
+        <p id="you">1+</p>
+        <div class="teammate-info hidden">
+          <p class="expanded-avatar">&#128075;</p>
+          <p class="name">You!</p>
+          <p class="secondary-text location">Anywhere</p>
+          <p class="secondary-text">We're 100% Remote</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="navbar-cta navbar-item right" id="navbar-cta-text">We're hiring</p>
+  </nav>
 
 </body>
 </html>
