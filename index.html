@@ -26,102 +26,117 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <img
-      src="/images/brand-logo.svg"
-      alt="brand logo"
-      class="navbar-item left "
-    >
-
-    <div class="brand-team-avatars navbar-item right">
-        <div class="teammate-avatar">
-        <img src="/images/julie-small.png" alt="Julie's avatar, it's a penguin.">
-
-        <div class="teammate-details hidden">
-          <img
-            src="/images/julie-large.png"
-            alt="Julie's avatar in larger size."
-            class="expanded-avatar"
-          >
-          <p class="name">Julie</p>
-          <p class="secondary-text location">Antarctica, Antarctica</p>
-          <p class="secondary-text time-zone-reference">4:30am (NZST)</p>
-        </div>
-      </div>
-
-      <div class="teammate-avatar">
-        <img src="/images/junnie-small.png" alt="Junnie's avatar, it's a raccon">
-
-        <div class="teammate-details hidden">
-          <img
-            src="/images/junnie-large.png"
-            alt="Junnie's avatar in larger size."
-            class="expanded-avatar"
-          >
-          <p class="name">Junnie</p>
-          <p class="secondary-text location">Portland, United States</p>
-          <p class="secondary-text time-zone-reference">9:30am (PDT)</p>
-        </div>
-      </div>
-
-      <div class="teammate-avatar">
-        <img src="/images/febby-small.png" alt="Febby's avatar, it's a fox.">
-
-        <div class="teammate-info hidden">
-          <img
-            src="/images/febby-large.png"
-            alt="Febby's avatar in larger size."
-            class="expanded-avatar"
-          >
-          <p class="name">Febby</p>
-          <p class="secondary-text location">London, England</p>
-          <p class="secondary-text time-zone-reference">5:30pm (BST)</p>
-        </div>
-      </div>
-
-      <div class="teammate-avatar">
-        <img src="/images/augustin-small.png" alt="Augustin's avatar, it's a tiger.">
-
-        <div class="teammate-info hidden">
-          <img
-            src="/images/augustin-large.png"
-            alt="[teammate] avatar expanded"
-            class="expanded-avatar"
-          >
-          <p class="name">Augustin</p>
-          <p class="secondary-text location">Kathmandu, Nepal</p>
-          <p class="secondary-text time-zone-reference">10:15pm (NPT)</p>
-        </div>
-      </div>
-
-      <div class="teammate-avatar">
+  <nav class="navbar sticky">
+    <div id="navbar-container">
+      <a href="https://ready.so" rel="noreferrer">
         <img
-        src="/images/deercember-small.png" alt="Deercember's avatar, it's a deer.">
+          src="/images/brand-logo.svg"
+          alt="brand logo"
+          class="navbar-item left-align"
+          id="logo"
+        >
+      </a>
 
-        <div class="teammate-info hidden">
-          <img
-            src="/images/deercember-large.png" 
-            alt="Deercember's avatar in larger size."
-            class="expanded-avatar"
-          >
-          <p class="name">Deercember</p>
-          <p class="secondary-text location">Toronto, Canada</p>
-          <p class="secondary-text time-zone-reference">10:30pm (EDT)</p>
-        </div>
-      </div>
+      <div class="container right-align">
+        <div class="brand-team-avatars navbar-item left-align">
+          <div class="teammate-avatar">
+            <img src="/images/julie-small.png"  alt="Julie's avatar, it's a penguin.">
 
-      <div class="teammate-avatar hiring">
-        <p id="you">1+</p>
-        <div class="teammate-info hidden">
-          <p class="expanded-avatar">&#128075;</p>
-          <p class="name">You!</p>
-          <p class="secondary-text location">Anywhere</p>
-          <p class="secondary-text">We're 100% Remote</p>
+            <div class="teammate-details hidden" id="testing-hook">
+              <img
+                src="/images/julie-large.png"
+                alt="Julie's avatar in larger size."
+                class="expanded-avatar"
+              >
+              <p class="name">Julie</p>
+              <p class="secondary-text location">Antarctica, Antarctica</p>
+              <p class="secondary-text time-zone-reference">4:30am (NZST)</p>
+            </div>
+          </div>
+
+          <div class="teammate-avatar">
+            <img src="/images/junnie-small.png" alt="Junnie's avatar, it's a raccon">
+
+            <div class="teammate-details hidden">
+              <img
+                src="/images/junnie-large.png"
+                alt="Junnie's avatar in larger size."
+                class="expanded-avatar"
+              >
+              <p class="name">Junnie</p>
+              <p class="secondary-text location">Portland, United States</p>
+              <p class="secondary-text time-zone-reference">9:30am (PDT)</p>
+            </div>
+          </div>
+
+          <div class="teammate-avatar">
+            <img src="/images/febby-small.png" alt="Febby's avatar, it's a fox.">
+
+            <div class="teammate-details hidden">
+              <img
+                src="/images/febby-large.png"
+                alt="Febby's avatar in larger size."
+                class="expanded-avatar"
+              >
+              <p class="name">Febby</p>
+              <p class="secondary-text location">London, England</p>
+              <p class="secondary-text time-zone-reference">5:30pm (BST)</p>
+            </div>
+          </div>
+
+          <div class="teammate-avatar">
+            <img src="/images/augustin-small.png" alt="Augustin's avatar, it's a tiger.">
+
+            <div class="teammate-details hidden">
+              <img
+                src="/images/augustin-large.png"
+                alt="[teammate] avatar expanded"
+                class="expanded-avatar"
+              >
+              <p class="name">Augustin</p>
+              <p class="secondary-text location">Kathmandu, Nepal</p>
+              <p class="secondary-text time-zone-reference">10:15pm (NPT)</p>
+            </div>
+          </div>
+
+          <div class="teammate-avatar">
+            <img src="/images/deercember-small.png"  alt="Deercember's avatar, it's a deer.">
+
+            <div class="teammate-details hidden">
+              <img
+                src="/images/deercember-large.png"
+                alt="Deercember's avatar in larger size."
+                class="expanded-avatar"
+              >
+              <p class="name">Deercember</p>
+              <p class="secondary-text location">Toronto, Canada</p>
+              <p class="secondary-text time-zone-reference">10:30pm (EDT)</p>
+            </div>
+          </div>
+
+          <div class="teammate-avatar">
+            <div id="you">
+              <div>+1</div>
+            </div>
+
+            <div class="teammate-details hidden">
+              <p class="expanded-avatar">&#128075;</p>
+              <p class="name">You!</p>
+              <p class="secondary-text location"> Anywhere </p>
+              <p class="secondary-text"> We're 100% Remote </p>
+            </div>
+          </div>
         </div>
+
+        <a
+          href="https://www.notion.so/readycalendar/      Join-the-Pack-b1648f1305a74759b6a0e471cca4a56b"
+          target="_blank"
+          rel="noreferrer"
+          class="button navbar-item right-align"
+        >
+        We're hiring </a>
       </div>
     </div>
-
-    <p class="navbar-cta navbar-item right" id="navbar-cta-text">We're hiring</p>
   </nav>
 
 </body>
