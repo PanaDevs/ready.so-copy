@@ -5,7 +5,7 @@ body, p {
 }
 
 body {
-  background: #f5f4f1;
+  background: rgb(245, 244, 241);
 }
 
 a {
@@ -36,7 +36,6 @@ a {
   height: auto;
 
   background: rgba(245, 244, 241,.25);
-  /* background: rgb(181, 181, 248);*/
 }
 
 #navbar-container {
