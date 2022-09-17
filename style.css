@@ -185,3 +185,62 @@ img.expanded-avatar, #you + .teammate-details .expanded-avatar {
 
 
 /** NAVBAR END **/
+
+
+/** START HIRING SECTION **/
+
+.card-subsection {
+  margin: 0px 5%;
+  padding: 65px 65px;
+  border-radius: 25px;
+
+  background: rgb(255, 255, 255);
+}
+
+
+#hiring-and-early-access-section {
+  padding: 40px 0px;
+
+  background: rgb(245, 244, 241);
+}
+
+#hiring-and-early-access-section > p {
+  margin-bottom: 10px;
+}
+
+#roles-button {
+
+  display: inline;
+  text-align: center;
+
+  background: rgb(90,94,185);
+}
+
+#email-early-access {
+  border-radius: 13px;
+  text-indent: 20px;
+}
+
+#button-early-access {
+  padding: 14px 28px;
+
+  text-decoration: none;
+
+  color: white;
+  background: rgb(91,63,65);
+
+  border-radius: 13px;
+}
+
+#form-early-access {
+  display: inline-grid;
+  grid-template-columns: 5fr 1fr;
+  gap: 10px;
+}
+
+#form-early-access > input {
+  /* This is the input box for the email. */
+  display: inline-block;
+}
+
+/** END HIRING SECTION **/
