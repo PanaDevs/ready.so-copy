@@ -185,3 +185,21 @@ img.expanded-avatar, #you + .teammate-details .expanded-avatar {
 
 
 /** NAVBAR END **/
+
+.shake {
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+  
+/* Shake a image */
+@keyframes shake {
+    50%{
+        transform: translate(0px, -2px);
+    }
+    1000% {
+        transform: translate(0px, 2px);
+    }
+}
