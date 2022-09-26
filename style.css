@@ -186,39 +186,81 @@ img.expanded-avatar, #you + .teammate-details .expanded-avatar {
 
 /** NAVBAR END **/
 
+#margin-for-sections{
+  margin-left: clamp(10px, 10%, 300px);
+  margin-right: clamp(10px, 10%, 300px);
+}
+
 
 /** START HIRING SECTION **/
 
+#hiring-and-early-access-section {
+  display: flex;
+  padding: 40px 0px;
+  background: rgb(245, 244, 241);
+}
+
 .card-subsection {
-  margin: 0px 5%;
   padding: 65px 65px;
   border-radius: 25px;
 
   background: rgb(255, 255, 255);
 }
 
-
-#hiring-and-early-access-section {
-  padding: 40px 0px;
-
-  background: rgb(245, 244, 241);
+#join-hiring {
+  margin-right: 10px;
+  text-align: center;
+  flex: 1 1 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
-#hiring-and-early-access-section > p {
-  margin-bottom: 10px;
+#join-hiring > p {
+  margin-bottom: 30px;
+  min-width: 230px;
 }
 
 #roles-button {
 
   display: inline;
   text-align: center;
+  color: white;
+  padding-top: 8px;
+  margin: 0 auto;
 
   background: rgb(90,94,185);
 }
 
+#early-access-and-image {
+  margin-left: 10px;
+  color: white;
+  flex: 3 1 0;
+  background-image: linear-gradient(to right, rgb(113, 107, 202) , rgb(199, 138, 123));
+}
+
+#early-access-and-image > * {
+  position: relative;
+  z-index: 3;
+}
+
+#early-access {
+  padding-left: 170px;
+  padding-right: 100px;
+}
+
+#early-access > p {
+  height: 60px;
+  width: 460px;
+}
+
 #email-early-access {
+  backdrop-filter: blur(10px) saturate(100%);
+  background-color: rgba(0,0,0,.25);
   border-radius: 13px;
+  border-color: transparent;
   text-indent: 20px;
+  color: white;
 }
 
 #button-early-access {
@@ -230,17 +272,111 @@ img.expanded-avatar, #you + .teammate-details .expanded-avatar {
   background: rgb(91,63,65);
 
   border-radius: 13px;
+  border-color: transparent;
+}
+
+#button-early-access:hover {
+  background: rgb(0, 0, 0, .75);
 }
 
 #form-early-access {
+  height: 80px;
   display: inline-grid;
   grid-template-columns: 5fr 1fr;
   gap: 10px;
+
+  position: relative;
+  z-index: 3;
 }
 
 #form-early-access > input {
   /* This is the input box for the email. */
   display: inline-block;
+}
+
+#picture-join {
+  position: absolute;
+  z-index: 2;
+}
+
+#flying-shoe {
+  position: absolute;
+  top: -300px;
+  left: -140px;
+  width: 80px;
+}
+
+#pencil-small {
+  position: absolute;
+  top: -330px;
+  left: -40px;
+  width: 70px;
+}
+
+#green-box {
+  position: absolute;
+  top: -310px;
+  left: 70px;
+  width: 60px;
+}
+
+#blue-ball {
+  position: absolute;
+  top: -260px;
+  left: 150px;
+  width: 90px;
+}
+
+#flying-febby {
+  position: absolute;
+  left: -180px;
+  top: -250px;
+  width: 430px;
+}
+
+@media screen and (max-width: 1500px) {
+  #hiring-and-early-access-section {
+    flex-direction: column;
+  }
+
+  #early-access-and-image {
+    margin-top: 360px;
+  }
+
+  #flying-shoe {
+    position: absolute;
+    top: -638px;
+    left: 170px;
+    width: 80px;
+  }
+
+  #pencil-small {
+    position: absolute;
+    top: -658px;
+    left: 285px;
+    width: 70px;
+  }
+
+  #green-box {
+    position: absolute;
+    top: -640px;
+    left: 398px;
+    width: 60px;
+  }
+
+  #blue-ball {
+    position: absolute;
+    top: -603px;
+    left: 455px;
+    width: 90px;
+  }
+
+  #flying-febby {
+    position: absolute;
+    left: 130px;
+    top: -580px;
+    width: 430px;
+  }
 }
 
 /** END HIRING SECTION **/
